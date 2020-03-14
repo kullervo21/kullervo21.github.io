@@ -13,5 +13,7 @@ function onKonamiCode(cb) {
 
 onKonamiCode(function () {
 document.body.style.backgroundImage = "url('img/konami.jpg')";
+var avatar = document.querySelector('img');
+avatar.setAttribute('src', 'img/avatar2.jpg');
 window.alert("ATTENTION !!! Konami Code detecté !!!");
 })
